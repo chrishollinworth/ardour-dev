@@ -45,6 +45,6 @@ cd ardour
 
 ./waf configure
 
-./waf build -j6
+./waf build -j$(nproc) 
 
 ./gtk2_ardour/ardev
